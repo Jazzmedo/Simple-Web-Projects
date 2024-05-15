@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: #f6f7fb;
+}
+
+h2 {
+    text-align: center;
+    margin: auto;
+    padding: 0.4vh;
+    color: #999999;
+    font-family: 'Mile', sans-serif;
+    font-weight: 300;
+}
+
+.line {
+    width: 5.7vw;
+    height: 5.5px;
+    background-color: #e0e0e0;
+    position: center;
+    margin: auto;
+    border: 0px ;
+    transition: background-color 0.4s ease;
+}
+
+.line.actlin {
+    transition: background-color 0.4s ease;
+    background-color: #53a8e0;
+}
+
+.con.actcon {
+    border: 5px solid #53a8e0;
+    transition: border 0.4s ease;
+}
+
+.con {
+    width: 35px;
+    height: 35px;
+    border: 5px solid #e0e0e0;
+    border-radius: 100%;
+    background-color: #fff;
+    transition: border 0.4s ease;
+}
+
+.container {
+    display: flex;
+    margin: 42.3vh 37vw 5vh 37vw;
+}
+
+.btn {
+    transition: background-color 0.4s ease;
+    margin: 0px 9px;
+    width: 130px;
+    height: 50px;
+    border: 0px solid #53a8e0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #e0e0e0;
+    font-size: 1.15vw;
+    font-family: 'Mile', sans-serif;
+    font-weight: 300;
+    color: #999999;
+}
+
+.btn p {
+    color: #fff;
+    margin: 0;
+}
+
+.btn.actbtn{
+    background-color: #53a8e0;
+}
+
