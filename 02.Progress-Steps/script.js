@@ -34,7 +34,6 @@ function backClick() {
     act--;
     hrr[act].classList.remove('actlin');
     cons[act + 1].classList.remove('actcon');
-    console.log(act);
     updatee();
 }
 
@@ -42,6 +41,5 @@ function frontClick() {
     hrr[act].classList.add('actlin');
     cons[act + 1].classList.add('actcon');
     act++;
-    console.log(act);
     updatee();
 }
