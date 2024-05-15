@@ -1,0 +1,62 @@
+body {
+    margin: 0
+}
+
+h2{
+    margin-left: 1vw;
+    color: white;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 65vh;
+    opacity:0%;
+    transition: opacity 0.7s ease;
+}
+
+.con.clicked{
+    flex:5;
+}
+
+.con.clicked h2{
+    opacity:100%;
+} 
+
+body{
+    background-color: rgb(232, 250, 255);
+}
+
+.container {
+    display: flex;
+    margin: 90px;
+    
+
+}
+
+.con {
+    width: 100%;
+    height: 75vh;
+    margin:15px;
+    border-radius: 80px;
+    flex: 0.5;
+    background-size: cover;
+    background-position: center;
+    transition: flex 0.7s ease-in-out;
+}
+
+.one {
+    background-image: url('img/01.jpg');
+}
+
+.two {
+    background-image: url('img/02.jpg');
+}
+
+.three {
+    background-image: url('img/03.jpg');
+}
+.four {
+    background-image: url('img/04.jpg');
+}
+.five {
+    background-image: url('img/05.jpg');
+}
